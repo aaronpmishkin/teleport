@@ -273,9 +273,13 @@ for hidden_sizes in [[], [100, 100]]:
 
 figure_labels = {
     "x_labels": {
-        "[]": "Epochs",
-        "[100, 100]": "Epochs",
-    },
+        "breast-cancer": "Iterations",
+        "hill-valley": "Iterations",
+        "chess-krvkp": "Iterations",
+        "tic-tac-toe": "Iterations",
+        "ozone": "Iterations",
+        "horse-colic": "Iterations",
+},
     "y_labels": {
         "[]": "Convex",
         "[100, 100]": "Non-Convex",
