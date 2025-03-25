@@ -34,7 +34,7 @@ dependencies = [
     "pylint",
     "mypy",
     "requests",
-    "experiment_utils @ git+https://github.com/aaronpmishkin/experiment_utils.git@teleport",
+    "experiment_utils @ git+https://github.com/aaronpmishkin/experiment_utils@aistats_2025#experiment_utils"
 ]
 
 [tool.setuptools]
